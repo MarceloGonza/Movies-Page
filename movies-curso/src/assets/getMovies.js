@@ -1,5 +1,6 @@
 export const fetchData = async () => {
-  const url = "https://imdb-com.p.rapidapi.com/search?searchTerm=deadpool";
+  const url =
+    "https://imdb8.p.rapidapi.com/v2/search?searchTerm=deadpool&type=movie&first=10&country=US&language=en-US";
   const options = {
     method: "GET",
     headers: {
